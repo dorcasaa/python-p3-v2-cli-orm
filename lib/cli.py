@@ -19,7 +19,7 @@ from helpers import (
 
 def main():
     while True:
-        menu()
+        menu(1)
         choice = input("> ")
         if choice == "0":
             exit_program()
@@ -53,7 +53,7 @@ def main():
             print("Invalid choice")
 
 
-def menu():
+def menu(1):
     print("Please select an option:")
     print("0. Exit the program")
     print("1. List all departments")
